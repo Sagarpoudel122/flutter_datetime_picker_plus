@@ -43,7 +43,8 @@ enum LocaleType {
   hr,
   sk,
   sl,
-  sr
+  sr,
+  ro
 }
 
 final _i18nModel = <LocaleType, Map<String, Object>>{
