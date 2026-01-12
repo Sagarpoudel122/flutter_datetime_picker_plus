@@ -48,6 +48,42 @@ enum LocaleType {
 }
 
 final _i18nModel = <LocaleType, Map<String, Object>>{
+  LocaleType.ro: {
+  'cancel': 'Anulează',
+  'done': 'Gata',
+  'today': 'Astăzi',
+  'monthShort': [
+    'Ian',
+    'Feb',
+    'Mar',
+    'Apr',
+    'Mai',
+    'Iun',
+    'Iul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Noi',
+    'Dec'
+  ],
+  'monthLong': [
+    'Ianuarie',
+    'Februarie',
+    'Martie',
+    'Aprilie',
+    'Mai',
+    'Iunie',
+    'Iulie',
+    'August',
+    'Septembrie',
+    'Octombrie',
+    'Noiembrie',
+    'Decembrie'
+  ],
+  'day': ['Lun', 'Mar', 'Mie', 'Joi', 'Vin', 'Sâm', 'Dum'],
+  'am': 'AM',
+  'pm': 'PM'
+},
   LocaleType.kh: {
     'cancel': 'បោះបង់',
     'done': 'រួចរាល់',
